@@ -121,7 +121,7 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 30
+        maxVol: 60 # KS14 Buff
   - type: MixableSolution
     solution: beaker
   - type: RefillableSolution
@@ -205,10 +205,10 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 30
+        maxVol: 60 # KS14 Buff
         reagents:
         - ReagentId: Vestine
-          Quantity: 30
+          Quantity: 60 # KS14 Buff, yes vestine increase was intentional
   - type: Tag
     tags: []
 
